@@ -1,0 +1,83 @@
+/* List design from class
+nav ul{
+    background-color:
+rgb(175,175,175);
+line-height: 2em;
+list-style-type: none;
+padding-left: 0px;
+text-indent: 5px;
+border-radius: 10px;;
+    }
+*/ 
+/* List design from Dr. Heinold's Website*/
+.nav ul {  /*Consider just styling nav tag*/
+  list-style : none;
+  background-color : #444;
+  text-align : center;
+  padding : 0;
+  margin : 1em;
+  border-radius: 10px;
+}
+.important { background-color: orange;} /*Shading for required sections*/
+.nav li {
+  font-family : Verdana;
+  line-height : 40px;
+  height : 40px;
+  display : inline-block;
+  margin-right : 25px;
+}
+.nav a {
+  text-decoration : none;
+  color : white;
+  display : block;
+  padding-left : 5px;
+  padding-right : 5px;
+}
+.nav a:hover {
+  background-color: #DD0;
+  color : black;
+}/*End of Dr. Heinold's Nav section*/
+body {background-color: silver;height: 100%; }
+.body {background-color:silver}
+footer, header, section, nav { display: block; }
+/*nav { width: 200px; float: left; margin-right: 10px; margin-top: -35px; }- nav section from class*/
+#main {
+	width : 50em;
+	margin-top : 20px;
+	margin-left : 20%;
+	background-color : white;
+	padding-left : 10px;
+	padding-right : 10px;
+	padding-bottom : 10px;
+	padding-top : 10px;
+	border-radius : 10px;
+	box-shadow: 10px 10px 10px 10px #888;
+}
+#h1{
+    text-align: center; font-family: Tahoma; color: navy;
+    font-size: 1.5em; /*em is the relative text sizor*/
+}
+#h2{
+    text-align: center;font-family: Copperplate, "Copperplate Gothic";
+    font-size: 1.25em;
+}
+#h3{text-align: center;font-size: 1.25em;}
+h1{
+     font-family: Tahoma; color: olive ;
+    font-size: 1.5em; /*em is the relative text sizor*/
+}
+h2{
+    font-family: Copperplate, "Copperplate Gothic";
+    font-size: 1.25em;
+}
+.stripe{background-color: white;}
+
+.fa { 
+  font-size: 100px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa:hover {
+  color: darkblue;
+}
